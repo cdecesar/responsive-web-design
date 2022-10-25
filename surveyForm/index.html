@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="en">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="heading">
+			<h1 id="title">
+				Survey Form FCC
+			</h1>
+			<p id="description">
+				This project is created with the intention of learning HTML and CSS in order to be able to program websites.
+				I suspect it is going to take me some time to learn the bits ans pieces of CSS, but I guess it is ok.
+
+				Here you can see a survey that lets users introduce different information regarding names, email addresses and more.
+				Hope you find it good enough to pass the tests, and any comments and corrections are more than welcomed.
+			</p>
+		</div>
+	</header>
+
+	<section>
+		<form id="survey-form">
+			<fieldset id="personal-data" class="fieldset-base">
+				<legend id="legend-data">Personal data</legend>
+				<label class="label-alone" id="name-label" for="name">Name and surname</label>
+				<input class="input-alone" id="name" placeholder="Name and surname" type="text" required>
+				<label class="label-alone" id="email-label" for="email">Email address</label>
+				<input class="input-alone" id="email" placeholder="Email" type="email" required>
+				<label class="label-alone" id="number-label" for="number">Number</label>
+				<input class="input-alone" id="number" placeholder="Number" type="number" min="0" max="100" value="50">
+			</fieldset>
+			
+			<label id="dropdown-label" for="dropdown">Select your favorite culinary creation</label>
+			<select id="dropdown">
+				<option value="none">Select one option</option>
+				<option value="pasta">Pasta with tomatoe sauce</option>
+				<option value="cereal">Cereal</option>
+				<option value="spanish omelette">Spanish omelette</option>
+				<option value="bread">Bread</option>
+			</select>
+
+
+			<fieldset class="fieldset-base">
+				<legend>Select your favorite sport to watch</legend>
+				<label for="radio1">Basketball
+					<input id="radio1" type="radio" name="radio-inputs" value="basketball"> 
+				</label>
+				<label for="radio2">Soccer
+					<input id="radio2" type="radio" name="radio-inputs" value="soccer"> 
+				</label>
+				<label for="radio3">Football
+					<input id="radio3" type="radio" name="radio-inputs" value="baseball"> 
+				</label>
+			</fieldset>
+
+			
+			<fieldset class="fieldset-base">
+				<legend>Are you having fun reviewing this survey?</legend>
+				<label for="reviewy">Yes
+					<input value="yes" type="checkbox" id="reviewy">
+				</label>
+				<label for="reviewn">No
+					<input value="no" type="checkbox" id="reviewn">
+				</label>
+				<label for="reviewdk">I´d rather not answer
+					<input value="dontknow" type="checkbox" id="reviewdk">
+				</label>
+			</fieldset>
+
+			<label id="label-text" for="text-comment">Leave your thoughts and comments regarding this survey down bellow</label>
+			<textarea class="input-alone text-input" id="text-comment" rows="10" cols="30"></textarea>
+
+			<button id="submit" type="submit">Submit</button>
+		</form>
+	</section>
+	<footer>
+		
+	</footer>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

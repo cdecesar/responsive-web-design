@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    background-color: #c0f0b4;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.heading {
+    max-width: 600px;
+    text-align: center;
+}
+
+#title {
+    padding-top: 5vh;
+}
+
+#description {
+    width: 100%;
+    text-align: justify;
+    padding-bottom: 2vh;
+}
+
+section {
+    display: flex;
+    color: black;
+    padding-top: 5vh;
+    justify-content: center;
+}
+
+#survey-form {
+    width: 600px;
+    text-align:left;
+    padding-top: 5vh;
+    border-radius: 4px;
+    padding-bottom: 5vh;
+    background-color:#8ee87d;
+}
+
+.fieldset-base {
+    border: none;
+}
+
+fieldset > label {
+    text-align:left;
+    margin-left: 3.5rem;
+}
+
+legend {
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin-left: 3.5rem;
+    padding: 2vh 0 2vh 0;
+}
+
+#legend-data {
+    padding: 2vh 0 0 0;
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.label-alone {
+    display: block;
+    font-weight: bold;
+    margin-top: 0.8rem;
+}
+
+.input-alone {
+    width: 80%;
+    height: 35px;
+    margin: auto;
+    outline: none;
+    display: block;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0 , 0, 0, 0.2);
+}
+
+#dropdown-label {
+    font-weight: bold;
+    margin-left: 4.5rem;
+}
+
+#dropdown {
+    width: 77%;
+    height: 35px;
+    outline: none;
+    border-radius: 4px;
+    margin-left: 4.5rem;
+    box-sizing: border-box;
+    border: 1px solid rgba(0 , 0, 0, 0.2);
+}
+
+#label-text {
+    display: block;
+    padding-top: 4vh;
+    margin-left: 3rem;
+    font-weight: bold;
+    padding-bottom: 2vh;
+}
+
+.text-input {
+    max-width: 85%;
+    min-width: 85%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+#submit {
+    border: none;
+    outline: none;
+    display: flex;
+    cursor: pointer;    
+    border-radius: 4px;
+    padding: 0.8rem 1.6rem;
+    background-color: #c0f0b4;
+    margin: 1rem auto 0.3rem auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit:hover {
+    font-weight: bold;
+    transform: scale(0.95);
+}
+
+footer {
+    margin-top: 5rem;
+}

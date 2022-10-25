@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta lang="en">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Python Documentation Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+<body>
+    <nav id="navbar">
+        <header>This is a Python documentation page</header>
+        <ul>
+            <li><a class="nav-link" href="#What_is_Python">What is Python</a></li>
+            <li><a class="nav-link" href="#Before_you_start">Before you start</a></li>
+            <li><a class="nav-link" href="#First_script">First script</a></li>
+            <li><a class="nav-link" href="#Variables">Variables</a></li>
+            <li><a class="nav-link" href="#Using_variables">Using variables</a></li>
+            <li><a class="nav-link" href="#Data_types">Data types</a></li>
+            <li><a class="nav-link" href="#Loops">Loops</a></li>
+            <li><a class="nav-link" href="#if...else_statements">if...else statements</a></li>
+            <li><a class="nav-link" href="#Indentation">Indentation</a></li>
+        </ul>
+        
+    </nav>
+
+    <main id="main-doc">
+        <section id="What_is_Python" class="main-section">
+            <header>What is Python</header>
+            <article>
+                <p>Python is an easy to learn, powerful programming language that has efficient high-level data structures and a simple but effective approach to object-oriented programming.
+                    Python is an ideal language for screipting and rapid application development in many areas of most platforms due to it´s elegant syntax and dynamic typing.
+                    The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.
+                    <br>
+                    Python is used in the development of different areas of computer science, such as:
+                </p>
+                <ul>
+                    <li>AI and machine learning</li>
+                    <li>Data analytics</li>
+                    <li>Data visualisation</li>
+                    <li>Programming applications</li>
+                    <li>Web development</li>
+                    <li>Game development</li>
+                
+                </ul>
+            </article>
+        </section>
+
+        <section id="Before_you_start" class="main-section">
+            <header>Before you start</header>
+            <article>
+                <p>There are some things you should be familiar with in order to take advantage of Python´s full potential in any of your projects:</p>
+                <ul>
+                    <li>Understanding of basic programming concepts.</li>
+                    <li>Some programming experience. If your new to programming, please try one of Python´s official tutorials before reading the rest of the article.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="First_script" class="main-section">
+            <header>First script</header>
+            <article>
+                <p>When programming, you can print out messages on your console log to show any piece of data you want at any moment of the execution of the code. In Python, in order to do that, 
+                you need to call the <b>print</b> method.
+                <br>
+                Once you have created a new Python file in your Pycharm folder, write the following text:</p>
+                <code>print("Hellow World")</code>
+                <p>This line of code should print out the message written in braquets. In order to do so, click the green arrow button on the top side of your monitor or use SHIFT + F10.</p>
+            </article>
+        </section>
+
+        <section id="Variables" class="main-section">
+            <header>Variables</header>
+            <article><p>When programming in Python, we use structures called <b>variables</b> to store data during the execution of the program. This structures can store all sort of different things: the result of 
+                the sum of two numbers, the name of your pet, the length of the car you want are trying to build. ect... Thanks to this structures, we can run programs and create useful applications.
+            </p></article>
+        </section>
+
+        <section id="Using_variables" class="main-section">
+            <header>Using variables</header>
+            <article>
+                <p>In other programming languages such as C, C++ or JavaScript, when creating a new variable, you need to do two different operations in order to be able to use this new variable:</p>
+                <ol>
+                    <li>Declare the variable
+                        <span>Java</span>
+                        <code>var x;</code>
+                        <span>C</span>
+                        <code>int a;</code>
+                    </li>
+                    <li>Give values to the variable
+                        <span>Java</span>
+                        <code>x = "Eyy";</code>
+                        <span>C</span>
+                        <code>a = 10;</code>
+                    </li>
+                </ol>
+                <p>In Python there is no need to do any of that. When creating a new variable, the only thing that is required to do is to use a correct identifier when naming the new variable.
+                You don't need to take into consideration the <a href="#Data_types"><b>type</b></a> of the value you want to store at any moment. Beacuse of this, Python is considered an easy to learn programming language
+                for people who want to get into the incredible world of computer science.</p>
+            </article>
+        </section>
+
+        <section id="Data_types" class="main-section">
+            <header>Data types</header>
+            <article><p>Although there is no need to declare the variables and specify their type when using them, there are still different types of values that variables can store. Here we list some of the more 
+                commonly used types:</p>
+                <ul>
+                    <li><p>Primitive values</p>
+                        <ul>
+                            <li>Integers</li>
+                            <li>Floats</li>
+                            <li>Boolean</li>
+                            <li>Strings</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>
+                        Objects
+                    </li>
+                </ul>
+                <p>One cool feature of Python is the fact that when a variable is given an integer value, later on at any point in the code, it can be given a float, boolean or string value.
+                    Variables aren't tied or linked to a single type of data, and its value can be changed to any other primitive value or Object whenever it is needed.
+                </p>
+            </article>
+        </section>
+
+        <section id="Loops" class="main-section">
+            <header>Loops</header>
+            <article>
+                <p>Loops let programmers repeat certain operations numerous times without having to write the same lines 10, 20 or 1000 times. This way, programmers can avoid creating
+                    incredibly long scripts where the mayority of the lines do the same operations. In Python, this iteration of operations are often acomplished by using the <b>while</b> statement</p>
+                <code>while (condition):</code>
+                <p>The condition must be a direct boolean value (either True/False or a variable with any of those values) or the result of 1 or more boolean expresions.</p>
+            </article>
+        </section>
+
+        <section id="if...else_statements" class="main-section">
+            <header>if...else statements</header>
+            <article>
+                <p>When a programmer wants to express a condition that determines the posibility to choose between two options, the <b>if and else</b> statements are used. There are two different
+                types of statements:</p>
+                <ul>
+                    <li>
+                        <span>if...then</span>
+<code><pre>if (condition):</pre></code>
+                    </li>
+                    <li>
+                        <span>if...then else...</span>
+                        <code>
+<pre>if (condition):
+    code
+else:
+    code</pre>
+                        </code>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="Indentation" class="main-section">
+            <header>Indentation</header>
+            <article>
+                <p>In other programming languages mention before like C or JavaScript, in order to specify which lines of code belong to a <a href="#Functions"><b>function</b></a> or are considered to be inside a <a href="#Loops"><b>while</b></a> loop, 
+                <b>{}</b> are used. That way, every line of code inside those symbols are considered part of the <a href="#Functions"><b>function</b></a> or <a href="#Loops"><b>while</b></a> loop that is being executed.
+                <br>
+                In Python, on the other hand, this symbols are used to create and define structures called <b>dictionaries</b>. In order to delimiter the lines of code that belong to a specific<a href="#Functions"><b>function</b></a>,
+                programmers need to make use of the indentation propertie of the text. Here are two examples of how to indent correctly and an example that shows how indentation should not be done:</p>
+                <span>Indentation in a function</span>
+                <code>
+<pre>def my_function():
+    print("Hi")
+    x = 2
+    y = 5</pre>
+                 </code>
+
+                 <span>Indentation in an if...else statement</span>
+                 <code>
+<pre>if True:
+    print("Yes")
+else:
+    print("No")</pre>
+                </code>
+
+                <span>Incorrect indentation of a while loop</span>
+                 <code>
+<pre>while True:
+x = 1
+y = 2
+z = 3</pre>
+                 </code>
+
+            </article>
+        </section>
+    </main>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

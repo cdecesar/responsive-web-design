@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+body{
+    background-color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0 1rem 0;
+    position: fixed;
+    background-color: lightgray;
+}
+
+#header-img {
+    float: left;
+    margin-left: 3rem;
+    display: inline;
+}
+
+#title {
+    float: left;
+    margin-left: 2rem;
+    display: inline;
+    font-style: italic;
+}
+
+#nav-bar {
+    float: right;  
+    margin-top: 2rem;
+    margin-right: 10rem;  
+}
+
+.nav-link {
+    color: black;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.nav-link:link {
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    cursor: pointer;
+}
+
+#submit-email {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    margin-top: 12rem;
+}
+
+#note {
+    width: 500px;
+    font-weight: bold;
+    margin: 0 auto 2rem auto;
+}
+
+#form {
+    margin: 0 auto 5rem auto;
+}
+
+#email {
+    width: 200px;
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit {
+    border: none;
+    font-weight: bold;
+    padding: 0.5rem 0.5rem;
+    background-color: lightgray;
+    font-family: 'Poppins', sans-serif;
+}
+
+#submit:hover {
+    cursor: pointer;
+}
+
+#submit:active{
+    transform: scale(0.95);
+}
+
+#info-visual {
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+    text-align: center;
+    justify-content: center;
+}
+
+#video {
+    width: 100% !important;
+    margin: auto;
+}
+
+#video-description {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#info-data {
+    margin: auto;
+    width: 700px;
+    display: flex;
+}
+
+.data-item {
+    margin-bottom: 1rem;
+}
+
+#disclaimer {
+    float: right;
+    padding-top: 2rem;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+@media (max-width: 800px) { 
+    #info-visual {
+        width: 400px;
+    }
+    #info-data {
+        width: 300px;
+    }
+}
+
+@media (max-width: 550px) { 
+
+    #submit-email {
+        margin-top: 15rem;
+    }
+
+    #email {
+        width: 100px;
+    }
+    #note {
+        width: 400px;
+    }
+}
+
+@media (max-width: 390px) { 
+    #info-visual {
+        width: 168px;
+        height: 94.5;
+    }
+    #info-data {
+        width: 150px;
+    }
+}
